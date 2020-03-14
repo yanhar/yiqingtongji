@@ -1,0 +1,1 @@
+下载js文件夹，css文件夹，index.html到同一目录，用浏览器打开index.html
