@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title> 疫情统计 </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="left">
+        <div id="mapchart"></div>
+    </div>
+    <div id="right">
+        <div id=choosepane>
+            <button type="button" id="newconfirm" onclick='graphtype=0;lineGraph()'>新增确诊</button>
+            <button type="button" id="allconfirm" onclick='graphtype=1;lineGraph()'>累计确诊</button>
+            <button type="button" id="alldeath" onclick='graphtype=2;lineGraph()'>累计死亡</button>
+        </div>
+        <div id="provgraph"></div>
+    </div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/china.js"></script>
+<script src="js/addmap.js"></script>
+<script src="js/addline.js"></script>
+
+</html>
